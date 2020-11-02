@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Blank Page - Web4</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Multi-Select-Dropdown-by-Jigar-Mistry.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/NZDropdown---Tree.css">
+    <link rel="stylesheet" href="assets/css/NZDropdown-Singlee.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Web4</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link" href="Notimplemented.html"><i class="far fa-newspaper"></i><span>HETILAP</span></a><a class="nav-link" href="Notimplemented.html"><i class="fas fa-globe-americas"></i><span>ONLINE</span></a><a class="nav-link" href="Notimplemented.html"><i class="fas fa-link"></i><span>HETILAP+ONLINE</span></a>
+                        <a
+                            class="nav-link active" href="index.html"><i class="fas fa-tags"></i><span>DEMÓ</span></a><a class="nav-link" href="Notimplemented.html"><i class="fas fa-user-tag"></i><span>CÍMKÉZŐ</span></a><a class="nav-link" href="Notimplemented.html"><i class="fas fa-cogs"></i><span>TANÍTÓ</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-1"><br>címkeajánló - HETILAP<br></h3>
+                    <h6 class="text-left text-black-50 mb-1"><br>Cikkek listája:</h6>
+                </div>
+                <div style="margin-left: 16px;margin-right: 196px;width: 80%;"></div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-9"><select id="select-title" style="height: 28px;padding: 1px;padding-top: 3px;padding-bottom: 3px;font-size: 12px;width: 98%;text-align: left;border-radius: 10px;margin: 13px;"><option value="12">Select / Single</option><option value="">asd</option><option value="">testt</option></select></div>
+                        <div
+                            class="col align-self-center"><button class="btn btn-primary d-inline-flex mx-auto d-block margenesArribaAbajo30px vichomBotonCircular" data-bs-hover-animate="pulse" id="btn-scroll-start" type="button" style="height: 28px;width: 28px;margin: 0px;padding: 5px;text-align: left;font-size: 17px;background-color: rgb(217,218,221);margin-right: 0px;"><i class="fas fa-angle-double-left" style="margin: 0px;color: #7c8087;"></i></button>
+                            <div
+                                class="d-inline-block" style="width: 10px;"></div><button class="btn btn-primary d-inline-flex mx-auto d-block margenesArribaAbajo30px vichomBotonCircular" data-bs-hover-animate="pulse" id="btn-scroll-prev" type="button" style="height: 28px;width: 22px;margin: 0px;padding: 5px;text-align: left;font-size: 17px;border-width: 1px;background-color: #d9dadd;"><i class="fas fa-chevron-left" style="margin: 0px;color: #7c8087;"></i></button>
+                    <div
+                        class="d-inline-block" style="width: 10px;"></div><button class="btn btn-primary d-inline-flex mx-auto d-block margenesArribaAbajo30px vichomBotonCircular" data-bs-hover-animate="pulse" id="btn-scroll-next" type="button" style="height: 28px;width: 22px;margin: 2px;padding: 5px;text-align: left;font-size: 17px;border-width: 1px;background-color: #d9dadd;"><i class="fas fa-chevron-right" style="margin: 0px;padding: 0px;color: #7c8087;"></i></button>
+                <div
+                    class="d-inline-block" style="width: 10px;"></div><button class="btn btn-primary d-inline-flex mx-auto d-block margenesArribaAbajo30px vichomBotonCircular" data-bs-hover-animate="pulse" id="btn-scroll-end" type="button" style="height: 28px;width: 28px;margin: 0px;padding: 5px;text-align: left;font-size: 17px;border-width: 1px;background-color: #d9dadd;"><i class="fas fa-angle-double-right" style="margin: 0px;color: #7c8087;"></i></button></div>
+    </div>
+    <div class="row" style="margin-bottom: 20px;">
+        <div class="col-9"><label style="margin: 0px;margin-left: 16px;margin-bottom: 0px;">Valószinűség:</label><label id="val_label" style="margin: 0px;margin-left: 16px;margin-bottom: 0px;">8</label>
+            <div class="custom-control custom-control-inline custom-checkbox float-right"><input class="custom-control-input" type="checkbox" id="formCheck-1"><label class="custom-control-label" id="min-check" for="formCheck-1">min. 3</label></div><input class="custom-range" type="range" id="formControlRange" style="width: 97%;margin-left: 17px;"
+                name="Range" min="0" max="1" step="0.0001" value="0.8" onchange="updateTextInput(this.value)"></div>
+        <div class="col">
+            <div class="row">
+                <div class="col"><label style="margin: 0px;margin-left: 16px;margin-bottom: 0px;" for="P_label">P:</label><label id="P_label" style="margin: 0px;margin-left: 16px;margin-bottom: 0px;">0.2222</label></div>
+            </div>
+            <div class="row">
+                <div class="col"><label class="d-inline" style="margin: 0px;margin-left: 16px;margin-bottom: 0px;" for="R_label">R:</label><label id="R_label" style="margin: 0px;margin-left: 16px;margin-bottom: 0px;">0.1111</label></div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="height: auto;">
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h5 class="text-primary align-self-center mb-0">Cikk szövege</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget
+                        quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam
+                        id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+                        odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                        id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam
+                        id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+                        odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                        id elit non mi porta gravida at eget metus.<br><br>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><br></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row" style="height: auto;margin-bottom: 40px;">
+                <div class="col" style="border-width: 9px;">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="text-primary align-self-center mb-0">Eredeti címkék</h5>
+                                </div>
+                                <div class="col">
+                                    <h5 class="text-primary align-self-center mb-0">Ajánlott címkék</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col" style="background: #ffffff;border-right-width: 1px;border-right-style: solid;">
+                                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non</p>
+                                </div>
+                                <div class="col" style="border-style: none;border-left: 0px none rgb(130,250,250) ;">
+                                    <p style="border-left-width: 0px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: auto;">
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col align-self-center">
+                                    <h5 class="text-primary mb-0">Eredeti címkék(egyéb)</h5>
+                                </div>
+                                <div class="col">
+                                    <h5 class="text-primary align-self-center mb-0">Ajánlott címkék(egyéb)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col" style="background: #ffffff;border-right-width: 1px;border-right-style: solid;">
+                                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non</p>
+                                </div>
+                                <div class="col" style="border-left-width: 3px;">
+                                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row" style="padding-top: 20px;height: auto;margin-top: 20px;padding-bottom: 20px;margin-bottom: 20px;">
+        <div class="col" style="padding-left: 25px;">
+            <div class="card" style="background: rgb(255,255,255);">
+                <div class="card-body shadow">
+                    <h6 class="text-monospace text-primary card-title">HETILAP</h6>
+                    <p class="card-text">cikk:110 ezer<br>címke: 1023 db<br>token: 73 millió<br>type: 62 ezer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body shadow">
+                    <h6 class="text-monospace text-primary card-title">HETILAP+</h6>
+                    <p class="card-text">cikk:110 ezer<br>címke: 1023 db<br>token: 73 millió<br>type: 62 ezer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body shadow">
+                    <h6 class="text-monospace text-success card-title">ONLINE</h6>
+                    <p class="card-text">cikk:110 ezer<br>címke: 1023 db<br>token: 73 millió<br>type: 62 ezer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="padding-right: 25px;">
+            <div class="card">
+                <div class="card-body shadow">
+                    <h6 class="text-monospace text-info card-title">HETILAP+ONLINE</h6>
+                    <p class="card-text">cikk:110 ezer<br>címke: 1023 db<br>token: 73 millió<br>type: 62 ezer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="bg-white sticky-footer">
+        <div class="container my-auto">
+            <div class="text-center my-auto copyright"><span>Copyright © Web4 2020&nbsp; Fagyi.tech</span></div>
+        </div>
+    </footer>
+    </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/Base/Multi-Select-Dropdown-by-Jigar-Mistry.js"></script>
+    <script src="assets/js/egyéb.js"></script>
+    <script src="assets/js/GetData.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/updateTextInput.js"></script>
+</body>
+
+</html>
